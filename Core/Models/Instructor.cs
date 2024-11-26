@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace Core.Models
 {
-    public class Instructor:BaseModel
+    public class Instructor:Person
     {
-        public string Name { get; set; }
-        public string Email { get; set; }
-        public string PhoneNumber { get; set; }
 
-        public ICollection<Course> Courses { get; set; } = new List<Course>();
+        public decimal Salary { get; set; }
+        public ICollection<InstructorCourses> instructorCourses { get; set; } = new List<InstructorCourses>();
         public ICollection<Exam> Exams { get; set; } = new List<Exam>();
         public ICollection<Question> Questions { get; set; } = new List<Question>();
 

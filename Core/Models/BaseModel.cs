@@ -12,8 +12,8 @@ namespace Core.Models
         public bool IsDeleted { get; set; }
         public int CreatedBy { get; set; }
         public DateOnly CreatedOn { get; set; } = DateOnly.FromDateTime(DateTime.Now);
-        public int UpdatedBy { get; set; }
-        public DateOnly UpdetedOn { get; set; }
+        public int? UpdatedBy { get; set; }
+        public DateOnly? UpdetedOn { get; set; }
         public int DeletedBy { get; set; }
         public DateOnly DeletedOn { get; set; }
     }

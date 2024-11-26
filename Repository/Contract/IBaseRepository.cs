@@ -8,18 +8,24 @@ using System.Threading.Tasks;
 
 namespace Repository.Contract
 {
-    public interface IBaseRepository<T> where T : BaseModel
+    public interface IBaseRepository<Entity> where Entity : BaseModel
     {
-        Task Add(T entity);
+        Task Add(Entity entity);
 
-        Task Update(T entity);
+        Task Update(Entity entity);
+        void SaveInclude(Entity entity,params string[] updatesProperties);
+        void SaveExeclude(Entity entity,params string[] unUpdatesProperties);
 
-        Task SoftDelete(T entity);
+        Task SoftDelete(Entity entity);
 
-        IQueryable<T> GetAll();
+        IQueryable<Entity> GetAll();
 
-        Task<T> Get(Expression<Func<T,bool>> Criatrie);
-        Task<T> GetById(int? id);
+        IQueryable<Entity> GetAllWithIncludes(Func<IQueryable<Entity>,IQueryable<Entity>> includeExpression);
+
+        IQueryable<Entity> Get(Expression<Func<Entity,bool>> Criatrie);
+        Task<Entity> GetById(int? id);
+
+        void SaveChanges();
 
 
     }

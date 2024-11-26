@@ -16,6 +16,8 @@ namespace Core.Models
         public int? InstructorId { get; set; }
 
         public ICollection<Exam> Exams { get; set; } = new List<Exam>();
+        public ICollection<InstructorCourses> CourseInstructors { get; set; } = new List<InstructorCourses>();
+
         public ICollection<StudentCourse> CourseStudents { get; set; } = new List<StudentCourse>();
 
 

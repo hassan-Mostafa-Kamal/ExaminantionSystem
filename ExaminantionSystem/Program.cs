@@ -6,6 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 using Repository;
 using Repository.Contract;
 using Repository.Implimentation;
+using System.Diagnostics;
 using System.Reflection;
 using System.Text;
 namespace ExaminantionSystem
@@ -28,8 +29,12 @@ namespace ExaminantionSystem
 
             builder.Services.AddDbContext<StoreContext>(options =>
             {
-                options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("Default"))
+                       .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking)  // No tracking for better performance
+                       .LogTo(log => Debug.WriteLine(log), LogLevel.Information)  // Log SQL queries to the debug output
+                       .EnableSensitiveDataLogging();  // Enable sensitive data logging (use carefully in production)
             });
+
 
             builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 

@@ -2,21 +2,22 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
+using System.Diagnostics;
+
 
 namespace Repository
 {
     public class StoreContext :IdentityDbContext<ApplicationUser,IdentityRole,string>
     {
-
-        public StoreContext(DbContextOptions<StoreContext> options):base(options)
+   
+        public StoreContext(DbContextOptions<StoreContext> options):base(options) 
         {
-                
+             
         }
+
+
 
         public DbSet<Instructor> Instructors { get; set; }
         public DbSet<Course> Courses { get; set; }

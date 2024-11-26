@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Repository;
 
@@ -11,9 +12,11 @@ using Repository;
 namespace Repository.Data.Migrations
 {
     [DbContext(typeof(StoreContext))]
-    partial class StoreContextModelSnapshot : ModelSnapshot
+    [Migration("20241125130644_IdentityTables")]
+    partial class IdentityTables
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -130,10 +133,10 @@ namespace Repository.Data.Migrations
                     b.Property<int?>("QuestionId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("UpdatedBy")
+                    b.Property<int>("UpdatedBy")
                         .HasColumnType("int");
 
-                    b.Property<DateOnly?>("UpdetedOn")
+                    b.Property<DateOnly>("UpdetedOn")
                         .HasColumnType("date");
 
                     b.HasKey("Id");
@@ -180,13 +183,15 @@ namespace Repository.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("UpdatedBy")
+                    b.Property<int>("UpdatedBy")
                         .HasColumnType("int");
 
-                    b.Property<DateOnly?>("UpdetedOn")
+                    b.Property<DateOnly>("UpdetedOn")
                         .HasColumnType("date");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("InstructorId");
 
                     b.ToTable("Courses");
                 });
@@ -232,10 +237,10 @@ namespace Repository.Data.Migrations
                     b.Property<int>("Type")
                         .HasColumnType("int");
 
-                    b.Property<int?>("UpdatedBy")
+                    b.Property<int>("UpdatedBy")
                         .HasColumnType("int");
 
-                    b.Property<DateOnly?>("UpdetedOn")
+                    b.Property<DateOnly>("UpdetedOn")
                         .HasColumnType("date");
 
                     b.HasKey("Id");
@@ -276,10 +281,10 @@ namespace Repository.Data.Migrations
                     b.Property<int?>("QuestionId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("UpdatedBy")
+                    b.Property<int>("UpdatedBy")
                         .HasColumnType("int");
 
-                    b.Property<DateOnly?>("UpdetedOn")
+                    b.Property<DateOnly>("UpdetedOn")
                         .HasColumnType("date");
 
                     b.HasKey("Id");
@@ -298,16 +303,6 @@ namespace Repository.Data.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Address")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Age")
-                        .HasColumnType("int");
-
-                    b.Property<DateOnly>("BarthDate")
-                        .HasColumnType("date");
 
                     b.Property<int>("CreatedBy")
                         .HasColumnType("int");
@@ -336,62 +331,15 @@ namespace Repository.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("Salary")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<int?>("UpdatedBy")
+                    b.Property<int>("UpdatedBy")
                         .HasColumnType("int");
 
-                    b.Property<DateOnly?>("UpdetedOn")
+                    b.Property<DateOnly>("UpdetedOn")
                         .HasColumnType("date");
 
                     b.HasKey("Id");
 
                     b.ToTable("Instructors");
-                });
-
-            modelBuilder.Entity("Core.Models.InstructorCourses", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("CourseId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("CreatedBy")
-                        .HasColumnType("int");
-
-                    b.Property<DateOnly>("CreatedOn")
-                        .HasColumnType("date");
-
-                    b.Property<int>("DeletedBy")
-                        .HasColumnType("int");
-
-                    b.Property<DateOnly>("DeletedOn")
-                        .HasColumnType("date");
-
-                    b.Property<int>("InstructorId")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<int?>("UpdatedBy")
-                        .HasColumnType("int");
-
-                    b.Property<DateOnly?>("UpdetedOn")
-                        .HasColumnType("date");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CourseId");
-
-                    b.HasIndex("InstructorId");
-
-                    b.ToTable("InstructorCourses");
                 });
 
             modelBuilder.Entity("Core.Models.Question", b =>
@@ -430,10 +378,10 @@ namespace Repository.Data.Migrations
                     b.Property<decimal>("Score")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int?>("UpdatedBy")
+                    b.Property<int>("UpdatedBy")
                         .HasColumnType("int");
 
-                    b.Property<DateOnly?>("UpdetedOn")
+                    b.Property<DateOnly>("UpdetedOn")
                         .HasColumnType("date");
 
                     b.HasKey("Id");
@@ -475,10 +423,10 @@ namespace Repository.Data.Migrations
                     b.Property<int?>("StudentId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("UpdatedBy")
+                    b.Property<int>("UpdatedBy")
                         .HasColumnType("int");
 
-                    b.Property<DateOnly?>("UpdetedOn")
+                    b.Property<DateOnly>("UpdetedOn")
                         .HasColumnType("date");
 
                     b.HasKey("Id");
@@ -537,10 +485,10 @@ namespace Repository.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("UpdatedBy")
+                    b.Property<int>("UpdatedBy")
                         .HasColumnType("int");
 
-                    b.Property<DateOnly?>("UpdetedOn")
+                    b.Property<DateOnly>("UpdetedOn")
                         .HasColumnType("date");
 
                     b.Property<int>("Year")
@@ -580,10 +528,10 @@ namespace Repository.Data.Migrations
                     b.Property<int?>("StudentId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("UpdatedBy")
+                    b.Property<int>("UpdatedBy")
                         .HasColumnType("int");
 
-                    b.Property<DateOnly?>("UpdetedOn")
+                    b.Property<DateOnly>("UpdetedOn")
                         .HasColumnType("date");
 
                     b.HasKey("Id");
@@ -737,6 +685,13 @@ namespace Repository.Data.Migrations
                     b.Navigation("Question");
                 });
 
+            modelBuilder.Entity("Core.Models.Course", b =>
+                {
+                    b.HasOne("Core.Models.Instructor", null)
+                        .WithMany("Courses")
+                        .HasForeignKey("InstructorId");
+                });
+
             modelBuilder.Entity("Core.Models.Exam", b =>
                 {
                     b.HasOne("Core.Models.Course", "Course")
@@ -767,25 +722,6 @@ namespace Repository.Data.Migrations
                     b.Navigation("Exam");
 
                     b.Navigation("Question");
-                });
-
-            modelBuilder.Entity("Core.Models.InstructorCourses", b =>
-                {
-                    b.HasOne("Core.Models.Course", "Course")
-                        .WithMany("CourseInstructors")
-                        .HasForeignKey("CourseId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Core.Models.Instructor", "Instructor")
-                        .WithMany("instructorCourses")
-                        .HasForeignKey("InstructorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Course");
-
-                    b.Navigation("Instructor");
                 });
 
             modelBuilder.Entity("Core.Models.Question", b =>
@@ -880,8 +816,6 @@ namespace Repository.Data.Migrations
 
             modelBuilder.Entity("Core.Models.Course", b =>
                 {
-                    b.Navigation("CourseInstructors");
-
                     b.Navigation("CourseStudents");
 
                     b.Navigation("Exams");
@@ -896,11 +830,11 @@ namespace Repository.Data.Migrations
 
             modelBuilder.Entity("Core.Models.Instructor", b =>
                 {
+                    b.Navigation("Courses");
+
                     b.Navigation("Exams");
 
                     b.Navigation("Questions");
-
-                    b.Navigation("instructorCourses");
                 });
 
             modelBuilder.Entity("Core.Models.Question", b =>

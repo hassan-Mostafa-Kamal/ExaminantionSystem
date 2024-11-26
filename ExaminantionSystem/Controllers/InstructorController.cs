@@ -1,4 +1,6 @@
 ﻿using Core.Models;
+using DTOs.Instructor;
+using ExaminantionSystem.ManualMappingForInstructor;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Repository.Contract;
@@ -18,6 +20,33 @@ namespace ExaminantionSystem.Controllers
             _courseRepo = courseRepo;
         }
 
+        [HttpGet]
+        public ActionResult<IEnumerable<InstructorDto>> GetAll()
+        {
+            var instrctors = _instructorRepo.GetAll().ToInstructorDto();
+            
+            return Ok(instrctors);
+        }
 
+        //[HttpPost]
+        //public ActionResult Create(InstructorCreateDto instructorDto)
+        //{
+
+
+
+
+        //}
+
+
+        [HttpGet("{id}")]
+        public  ActionResult<InstructorDto> GetById(int id)
+        {
+           // var instructor = await _instructorRepo.GetById(id);
+
+            var instructor =  _instructorRepo.Get(e => e.Id == id).FirstOrDefault();
+            instructor.ToInstructorDto();
+
+            return Ok(instructor);
+        }
     }
 }
