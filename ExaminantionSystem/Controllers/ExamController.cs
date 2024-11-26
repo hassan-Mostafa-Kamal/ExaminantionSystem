@@ -16,12 +16,14 @@ namespace ExaminantionSystem.Controllers
     {
 
         private readonly IBaseRepository<Exam> _examRepo;
+        private readonly IBaseRepository<ExamQuestion> _examQuestionRepo;
         private readonly IMapper _mapper;
 
-        public ExamController(IBaseRepository<Exam> examRepo, IMapper mapper)
+        public ExamController(IBaseRepository<Exam> examRepo, IMapper mapper, IBaseRepository<ExamQuestion> examQuestionRepo)
         {
             _examRepo = examRepo;
             _mapper = mapper;
+            _examQuestionRepo = examQuestionRepo;
         }
 
         [HttpPost]
@@ -29,17 +31,8 @@ namespace ExaminantionSystem.Controllers
         {
 
 
-            var Exam = new Exam()
-            {
-                InstructorId = createExamDto.InstructorId,
-                TotalGrade = createExamDto.TotalGrade,
-                PassMark = createExamDto.PassMark,
-                MaxDuration = createExamDto.MaxDuration,
-                Type = createExamDto.Type
+          
 
-            };
-
-            await _examRepo.Add(Exam);
             return Ok(createExamDto);
 
             //var examTypes = Enum.GetValues(typeof(ExamType))
