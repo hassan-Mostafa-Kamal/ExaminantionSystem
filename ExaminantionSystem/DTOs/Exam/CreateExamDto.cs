@@ -21,22 +21,20 @@ namespace DTOs.Exam
         [Required]
         public int TotalGrade { get; set; }
 
+        [Required]
+        public DateTime Date { get; set; }
 
         [Required]
         public int PassMark { get; set; }
 
         public DateOnly CreatedOn { get; set; } = DateOnly.FromDateTime(DateTime.Now);
 
-        //public ICollection<Result> Results { get; set; } = new List<Result>();
-
-        // [ForeignKey("Course")]
+        public ICollection<int> QuestionsIds { get; set; }
         public int? CourseId { get; set; }
 
 
-      //  [ForeignKey("Instructor")]
         public int? InstructorId { get; set; }
-       // public Instructor Instructor { get; set; }
-      //  public ICollection<ExamQuestion> ExamQuestions { get; set; } = new List<ExamQuestion>();
+
 
 
     }

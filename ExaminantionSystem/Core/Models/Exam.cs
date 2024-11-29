@@ -13,6 +13,7 @@ namespace Core.Models
         public ExamType Type { get; set; }
         public int MaxDuration { get; set; }
         public int TotalGrade { get; set; }
+        public DateTime Date { get; set; }
 
 
         public int PassMark { get; set; }
