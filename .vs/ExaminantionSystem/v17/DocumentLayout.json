@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Hassan\\Study\\JSB\\Projects\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6678C406-1C45-4CBA-A183-6B501936A55F}|ExaminantionSystem\\ExaminantionSystem.csproj|d:\\hassan\\study\\jsb\\projects\\examinantionsystem\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6678C406-1C45-4CBA-A183-6B501936A55F}|ExaminantionSystem\\ExaminantionSystem.csproj|solutionrelative:examinantionsystem\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E635B8-0B12-411D-B6AA-F8A191F2AA70}|Repository\\Repository.csproj|d:\\hassan\\study\\jsb\\projects\\repository\\implimentation\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E635B8-0B12-411D-B6AA-F8A191F2AA70}|Repository\\Repository.csproj|solutionrelative:repository\\implimentation\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E635B8-0B12-411D-B6AA-F8A191F2AA70}|Repository\\Repository.csproj|d:\\hassan\\study\\jsb\\projects\\repository\\contract\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E635B8-0B12-411D-B6AA-F8A191F2AA70}|Repository\\Repository.csproj|solutionrelative:repository\\contract\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E635B8-0B12-411D-B6AA-F8A191F2AA70}|Repository\\Repository.csproj|d:\\hassan\\study\\jsb\\projects\\repository\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E635B8-0B12-411D-B6AA-F8A191F2AA70}|Repository\\Repository.csproj|solutionrelative:repository\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6678C406-1C45-4CBA-A183-6B501936A55F}|ExaminantionSystem\\ExaminantionSystem.csproj|d:\\hassan\\study\\jsb\\projects\\examinantionsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6678C406-1C45-4CBA-A183-6B501936A55F}|ExaminantionSystem\\ExaminantionSystem.csproj|solutionrelative:examinantionsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6678C406-1C45-4CBA-A183-6B501936A55F}|ExaminantionSystem\\ExaminantionSystem.csproj|d:\\hassan\\study\\jsb\\projects\\examinantionsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6678C406-1C45-4CBA-A183-6B501936A55F}|ExaminantionSystem\\ExaminantionSystem.csproj|solutionrelative:examinantionsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6678C406-1C45-4CBA-A183-6B501936A55F}|ExaminantionSystem\\ExaminantionSystem.csproj|d:\\hassan\\study\\jsb\\projects\\examinantionsystem\\mapping\\choiceprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6678C406-1C45-4CBA-A183-6B501936A55F}|ExaminantionSystem\\ExaminantionSystem.csproj|solutionrelative:examinantionsystem\\mapping\\choiceprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F74FFA-E58A-413E-980E-F5E040B7ACDB}|Core\\Core.csproj|d:\\hassan\\study\\jsb\\projects\\core\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F74FFA-E58A-413E-980E-F5E040B7ACDB}|Core\\Core.csproj|solutionrelative:core\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F74FFA-E58A-413E-980E-F5E040B7ACDB}|Core\\Core.csproj|d:\\hassan\\study\\jsb\\projects\\core\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F74FFA-E58A-413E-980E-F5E040B7ACDB}|Core\\Core.csproj|solutionrelative:core\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F74FFA-E58A-413E-980E-F5E040B7ACDB}|Core\\Core.csproj|d:\\hassan\\study\\jsb\\projects\\core\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F74FFA-E58A-413E-980E-F5E040B7ACDB}|Core\\Core.csproj|solutionrelative:core\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F74FFA-E58A-413E-980E-F5E040B7ACDB}|Core\\Core.csproj|d:\\hassan\\study\\jsb\\projects\\core\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F74FFA-E58A-413E-980E-F5E040B7ACDB}|Core\\Core.csproj|solutionrelative:core\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6678C406-1C45-4CBA-A183-6B501936A55F}|ExaminantionSystem\\ExaminantionSystem.csproj|d:\\hassan\\study\\jsb\\projects\\examinantionsystem\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6678C406-1C45-4CBA-A183-6B501936A55F}|ExaminantionSystem\\ExaminantionSystem.csproj|solutionrelative:examinantionsystem\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BaseModel.cs",
+              "DocumentMoniker": "D:\\Hassan\\Study\\JSB\\Projects\\Core\\Models\\BaseModel.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\BaseModel.cs",
+              "ToolTip": "D:\\Hassan\\Study\\JSB\\Projects\\Core\\Models\\BaseModel.cs",
+              "RelativeToolTip": "Core\\Models\\BaseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:06:01.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\Hassan\\Study\\JSB\\Projects\\Core\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Course.cs",
+              "ToolTip": "D:\\Hassan\\Study\\JSB\\Projects\\Core\\Models\\Course.cs",
+              "RelativeToolTip": "Core\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:04:30.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Hassan\\Study\\JSB\\Projects\\Core\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Student.cs",
+              "ToolTip": "D:\\Hassan\\Study\\JSB\\Projects\\Core\\Models\\Student.cs",
+              "RelativeToolTip": "Core\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T12:59:38.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Instructor.cs",
+              "DocumentMoniker": "D:\\Hassan\\Study\\JSB\\Projects\\Core\\Models\\Instructor.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Instructor.cs",
+              "ToolTip": "D:\\Hassan\\Study\\JSB\\Projects\\Core\\Models\\Instructor.cs",
+              "RelativeToolTip": "Core\\Models\\Instructor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T12:47:07.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InstructorController.cs",
+              "DocumentMoniker": "D:\\Hassan\\Study\\JSB\\Projects\\ExaminantionSystem\\Controllers\\InstructorController.cs",
+              "RelativeDocumentMoniker": "ExaminantionSystem\\Controllers\\InstructorController.cs",
+              "ToolTip": "D:\\Hassan\\Study\\JSB\\Projects\\ExaminantionSystem\\Controllers\\InstructorController.cs",
+              "RelativeToolTip": "ExaminantionSystem\\Controllers\\InstructorController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwDAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T12:43:39.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "D:\\Hassan\\Study\\JSB\\Projects\\Repository\\Contract\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Contract\\IBaseRepository.cs",
+              "ToolTip": "D:\\Hassan\\Study\\JSB\\Projects\\Repository\\Contract\\IBaseRepository.cs",
+              "RelativeToolTip": "Repository\\Contract\\IBaseRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T08:02:09.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "D:\\Hassan\\Study\\JSB\\Projects\\Repository\\Implimentation\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Implimentation\\BaseRepository.cs",
+              "ToolTip": "D:\\Hassan\\Study\\JSB\\Projects\\Repository\\Implimentation\\BaseRepository.cs",
+              "RelativeToolTip": "Repository\\Implimentation\\BaseRepository.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAwwGAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T07:56:19.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Hassan\\Study\\JSB\\Projects\\ExaminantionSystem\\Program.cs",
+              "RelativeDocumentMoniker": "ExaminantionSystem\\Program.cs",
+              "ToolTip": "D:\\Hassan\\Study\\JSB\\Projects\\ExaminantionSystem\\Program.cs",
+              "RelativeToolTip": "ExaminantionSystem\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwB0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T13:03:35.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Hassan\\Study\\JSB\\Projects\\ExaminantionSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "ExaminantionSystem\\appsettings.json",
+              "ToolTip": "D:\\Hassan\\Study\\JSB\\Projects\\ExaminantionSystem\\appsettings.json",
+              "RelativeToolTip": "ExaminantionSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-25T11:16:25.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StoreContext.cs",
+              "DocumentMoniker": "D:\\Hassan\\Study\\JSB\\Projects\\Repository\\StoreContext.cs",
+              "RelativeDocumentMoniker": "Repository\\StoreContext.cs",
+              "ToolTip": "D:\\Hassan\\Study\\JSB\\Projects\\Repository\\StoreContext.cs",
+              "RelativeToolTip": "Repository\\StoreContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T13:02:36.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChoiceProfile.cs",
+              "DocumentMoniker": "D:\\Hassan\\Study\\JSB\\Projects\\ExaminantionSystem\\Mapping\\ChoiceProfile.cs",
+              "RelativeDocumentMoniker": "ExaminantionSystem\\Mapping\\ChoiceProfile.cs",
+              "ToolTip": "D:\\Hassan\\Study\\JSB\\Projects\\ExaminantionSystem\\Mapping\\ChoiceProfile.cs",
+              "RelativeToolTip": "ExaminantionSystem\\Mapping\\ChoiceProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T14:04:10.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "D:\\Hassan\\Study\\JSB\\Projects\\ExaminantionSystem\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "ExaminantionSystem\\Controllers\\CourseController.cs",
+              "ToolTip": "D:\\Hassan\\Study\\JSB\\Projects\\ExaminantionSystem\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "ExaminantionSystem\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T07:54:48.502Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

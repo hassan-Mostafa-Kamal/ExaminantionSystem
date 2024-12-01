@@ -21,6 +21,8 @@ namespace Repository.Contract
         Task<T> Get(Expression<Func<T,bool>> Criatrie);
         Task<T> GetById(int? id);
 
+        void SaveChanges();
+
 
     }
 }
